@@ -1,0 +1,23 @@
+.postcard {
+    @apply w-[36.93rem] h-[12.93rem] flex flex-col pl-[2.29rem] pt-[2.29rem]
+}
+
+.postcard-head {
+    @apply text-[#4c4c4c] font-medium text-base leading-[1.43rem] mb-[0.57rem]
+}
+
+.all-post-head {
+    @apply mb-[2.29rem]
+}
+
+.postcard-title {
+    @apply w-[26.4rem] h-[6.86rem] flex-wrap font-bold leading-[2.29rem] text-[1.71rem] mb-[1.79rem]
+}
+
+.author {
+    @apply text-[#592EA9]
+}
+
+.postcard:hover {
+    @apply bg-[#FBF6EA]
+}

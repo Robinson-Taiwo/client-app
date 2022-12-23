@@ -1,0 +1,193 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+.Home {
+    @apply w-full flex flex-col
+}
+
+.first {
+    background-image: url(../images/image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply pt-[9.143rem] pl-[5.79rem] flex flex-col h-[51.429rem] w-full
+}
+
+
+.bold {
+    @apply font-black
+}
+
+.small {
+    letter-spacing: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    @apply text-base font-medium leading-5 text-white w-[15.86rem]
+}
+
+.heading {
+    @apply font-bold text-[4rem] text-white leading-[4.71rem] w-[57.4rem] font-sans
+}
+
+.james {
+    @apply text-white mt-[1.71rem] leading-7 font-normal text-base w-[17.36rem]
+}
+
+.yellow {
+    @apply text-[#FFD050]
+}
+
+.para {
+    @apply text-white font-normal text-base leading-8 mt-[1.143rem] w-[42.79rem]
+}
+
+.but1 {
+    @apply mt-[3.43rem] bg-[#FFD050] h-[4rem] w-[14.6rem] flex items-center justify-center
+}
+
+.second {
+    @apply flex flex-row h-[57.43rem] mt-[9.143rem] w-full pr-[5.57rem] pl-[5.714rem] gap-[2.29rem] mb-[9.143rem]
+}
+
+.cont {
+    @apply mt-[2.29rem] p-[2.29rem] h-[51.71rem] w-[52.36rem]
+}
+
+.feat {
+    color: #232536;
+    letter-spacing: -0.143rem;
+    @apply font-bold leading-[3.43rem] text-[2.57rem]
+}
+
+.doe {
+
+    color: #4C4C4C;
+    @apply leading-[1.43rem] font-medium mt-[2.29rem] mb-[1.14rem]
+}
+
+.lorem {
+    color: #232536;
+    letter-spacing: -0.071rem;
+
+    @apply leading-10 font-bold text-[2rem] w-[47.8rem] mb-[1.142rem]
+}
+
+.ipsum {
+    @apply text-[#6D6E76] w-[39.4rem] leading-8 text-[1.143rem] font-normal mb-[3.43rem]
+}
+
+/* all posts */
+
+.allpost {
+    @apply h-[57.43rem] w-[36.93rem] flex-col
+}
+
+.all-post-head {
+    @apply flex flex-row gap-[23rem] flex items-center
+}
+
+.all-post-head-h {
+    @apply h-[3.43rem] text-[#232536] font-bold leading-[3.43rem] text-[2.571rem]
+}
+
+.all-post-head-p {
+    @apply text-[#592EA9] font-normal text-[1.143rem] leading-[2rem]
+}
+
+/* third */
+
+.third {
+    @apply pl-[5.71rem] pr-[5.57rem]
+}
+
+.design {
+    @apply w-[75.79rem] h-[1.643rem] flex flex-row justify-end ml-[15.64rem]
+}
+
+.design-yellow {
+    @apply w-[60.21rem] bg-[#FFD050] h-[1.643rem]
+}
+
+.design-purple {
+    @apply w-[20.14rem] bg-[#592EA9] h-[1.643rem]
+}
+
+.thirdbox {
+    @apply w-[91.43rem] h-[35.71rem] flex flex-row gap-[4.36rem] pl-[5.71rem] bg-[#F4F0F8] pr-[7.71rem]
+}
+
+.thirdbox-1 {
+    @apply mt-[6.86rem] w-[36.79rem] h-[22rem] flex-wrap flex flex-col
+}
+
+.about {
+    @apply text-[#232536] font-semibold text-[1.14rem] leading-[1.43rem] tracking-[0.21rem] mb-[1.71rem]
+}
+
+.community {
+    @apply h-[10.29rem] w-[35.3rem] text-[#232536] leading-[3.43rem] text-[2.57rem] font-bold mb-[1.143rem]
+}
+
+.dolor {
+    @apply font-normal text-[1.143] leading-[2rem] text-[#6D6E76]
+}
+
+.readm {
+    @apply mt-[1.143rem] font-bold leading-[2.29rem]
+}
+
+.thirdbox-2 {
+    @apply flex flex-col flex-wrap mt-[7rem]
+}
+
+.mission {
+    @apply text-[#232536] font-semibold text-[1.14rem] leading-[1.43rem] tracking-[0.21rem] mb-[1.71rem]
+}
+
+.content {
+    @apply leading-[2.86rem] text-[2rem] w-[34.4rem] h-[5.71rem] font-bold mb-[1.143rem] text-[#232536]
+}
+
+.amet {
+    @apply h-[7.76rem] w-[36.86rem] text-[#6D6E76] font-normal text-[1.143] leading-[2rem]
+}
+
+.fourth {
+    @apply mt-[9.142rem] pl-[5.71rem] pr-[5.57rem] w-[91.43rem]
+}
+
+
+.choose {
+    @apply text-[#232536] font-bold text-[2.571rem] leading-[3.43rem] self-center w-[100%] flex justify-center mb-[3.43rem]
+}
+
+.square {
+    @apply flex flex-row gap-[2.29rem]
+}
+
+.economy1 {
+    border: 0.07rem solid #6D6E76;
+
+    @apply h-[16.29rem] w-[21.142rem] p-[2.286rem] flex flex-col bg-[#FFD050]
+}
+
+.economy {
+    border: 0.07rem solid #6D6E76;
+
+    @apply h-[16.29rem] w-[21.142rem] p-[2.286rem] flex flex-col
+}
+
+
+.imagediv {
+    @apply h-[3.43rem] w-[3.43rem] bg-[#FBF6EA] flex justify-center items-center mb-[1.143rem]
+}
+
+.squarehead{
+    @apply mb-[0.29rem] font-bold text-[2rem] leading-[2.86rem] text-[#232536]
+}
+.squarepara{
+    @apply text-[#6D6E76] leading-[2rem] font-normal text-[1.143rem] w-[16.57rem]
+}

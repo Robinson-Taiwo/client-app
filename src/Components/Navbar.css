@@ -1,0 +1,23 @@
+.Navbar{
+    @apply bg-[#232536] w-full h-[5.71rem] flex  justify-between items-center
+}
+
+.nav{
+    @apply flex mr-[5.71rem]
+}
+
+.logo{
+    @apply h-[2.03rem] w-[10rem] ml-[5.93rem]
+}
+
+.links{
+    @apply flex mr-[2.29rem] gap-[1.71rem] ml-[44.4rem] items-center
+}
+
+.inks{
+    @apply font-normal leading-8 text-[1.14rem] text-[#FFFFFF]
+}
+
+.but{
+    @apply bg-white h-[4rem] w-[12.8rem] my-[0.86rem] px-[3.43rem] py-[1.14rem] leading-[1.7rem] text-[1.29rem] text-[#232536]
+}
