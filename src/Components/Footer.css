@@ -1,0 +1,48 @@
+.footer {
+    @apply h-[40rem] bg-[#232536] pl-[5.71rem] pr-[5.71rem] pt-[4.21rem] pb-[4rem]
+}
+
+.footlinks {
+    @apply gap-[1.71rem] flex flex-row
+}
+
+.navb {
+    @apply flex flex-row justify-between mb-[4.025rem]
+}
+
+.foot2 {
+    /* background: #FFFFFF;
+    opacity: 0.05; */
+    @apply h-[18.29rem] bg-[#36384b] pl-[4.57rem] pr-[4.57rem] pt-[5.71rem] flex flex-row justify-between
+}
+
+.subs {
+    @apply leading-[3.42rem] text-[2.57rem] font-bold text-white w-[40.14rem] h-[6.86rem] relative
+}
+
+.foot3 {
+    @apply mr-[19.1rem] flex
+}
+
+.footinput {
+    background-color: transparent;
+    border: 0.071rem solid #c4c4c4;
+    @apply w-[23.1rem] h-[4rem] pl-[1.78rem] pt-4
+}
+
+.utt {
+    @apply bg-[#FFD050] w-[12.79rem] h-[4rem] ml-[1.6rem] text-[#232536] leading-[1.71rem] text-[1.29rem]
+}
+
+.bottom {
+    @apply flex justify-between
+}
+
+.address {
+    opacity: 0.7;
+    @apply mt-[3.43rem] font-normal text-white text-[1.14rem] leading-[2rem]
+}
+
+.media {
+    @apply mt-[4.29rem]
+}

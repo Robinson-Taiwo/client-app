@@ -1,4 +1,4 @@
-// import Footer from "./Footer";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const PageLayout = ({ children }) => {
@@ -8,7 +8,7 @@ const PageLayout = ({ children }) => {
 
       <main className="flex-grow overflow-auto">
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </div>
   );

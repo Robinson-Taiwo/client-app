@@ -7,11 +7,25 @@ import company from "../assets/company.svg"
 import wifi from "../assets/wifi.svg"
 import tech from "../assets/tech.svg"
 import rocket from "../assets/rocket.svg"
+import Logo1 from "../assets/Logo1.svg"
+import Logo2 from "../assets/Logo2.svg"
+import Logo3 from "../assets/Logo3.svg"
+import Logo4 from "../assets/Logo4.svg"
+import profilepics from "../assets/profilepics.png"
+import arrow1 from "../assets/Arrow1.svg"
+import arrow2 from "../assets/Arrow2.svg"
+
+import Button from "../assets/Button.svg"
 import feat from "../images/feat.png"
+import together from "../images/together.png"
 import PostData from "./Data/index"
+import ProfileData from "./Data/ProfileData"
 import PostCard from './PostCard'
+// import ProfileData from './Data/ProfileData'
+import ProfileCard from './ProfileCard'
 
 const Home = () => {
+
   return (
     <PageLayout>
       <div className="Home">
@@ -155,13 +169,147 @@ const Home = () => {
 
               </div>
 
-              <h1  className='squarehead'>Technology</h1>
+              <h1 className='squarehead'>Technology</h1>
               <p className='squarepara' >Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 
             </div>
           </div>
 
+
+
         </section>
+
+        <section className="fifth">
+          <img src={together} alt="together" className="together" />
+          <div className="why">
+
+            <h4 className='we' >WHY WE STARTED</h4>
+
+            <h1 className='started'>It started out as a simple idea and evolved into our passion</h1>
+
+            <p className='elit' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+            <img className='discover' src={Button} alt="" />
+
+          </div>
+        </section>
+
+        <section className="sixth">
+          <h1 className="authors">
+            List of Authors
+          </h1>
+
+          <div className="profile">
+            {ProfileData.map((profile, index) => {
+              return <ProfileCard name={profile.name} image={profile.image} job={profile.job} />
+            })}
+          </div>
+
+        </section>
+
+        <secction className="seventh">
+          <div className="featin">
+            <p className="featout">
+              we are
+            </p>
+            Featured in
+          </div>
+
+          <div className="logo1">
+            <img src={Logo1} alt="" />
+
+          </div>
+          <div className="logo2">
+            <img src={Logo2} alt="" />
+          </div>
+          <div className="logo3">  <img src={Logo3} alt="" />
+          </div>
+          <div className="logo4">  <img src={Logo4} alt="" />
+          </div>
+
+        </secction>
+
+        <div className="eight">
+          <div className="testimonial">
+            <div className="testi">
+              TESTIMONIALs
+            </div>
+            <h1 className="say">
+              What people say about our blog
+            </h1>
+            <p className="sayt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </p>
+
+          </div>
+
+
+
+          <div className="vline">
+
+          </div>
+
+          <div className="magna">
+
+            <div className="mtop">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+
+            <div className="mbottom">
+
+              <div className="id">
+
+                <div className="pp">
+                  <img src={profilepics} alt="" />
+                </div>
+
+                <div className="pinfo">
+                  <p className="pname">
+                    Jonathan Vallem
+                  </p>
+                  <div>
+                    New york, USA
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="arrow">
+
+                <div className='arrow2' >
+                  <img src={arrow2} alt="" />
+                </div>
+
+                <div className='arrow1' >
+                  <img src={arrow1} alt="" />
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="ninth">
+
+          <div className="nin">
+
+            <h1 className="team">
+              Join our team to be a part of our story
+            </h1>
+
+            <div className="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+            </div>
+
+            <button className="join">
+              join now
+            </button>
+
+          </div>
+
+        </div>
 
       </div>
 
