@@ -1,0 +1,37 @@
+.fourth1 {
+    @apply mt-[3.43rem]
+}
+
+
+.choose {
+    @apply text-[#232536] font-bold text-[2.571rem] leading-[3.43rem] self-center w-[100%] flex justify-center mb-[3.43rem]
+}
+
+.square {
+    @apply flex flex-row gap-[2.29rem] mb-[9.143rem]
+}
+
+.economy1 {
+    border: 0.07rem solid #6D6E76;
+
+    @apply h-[16.29rem] w-[21.142rem] p-[2.286rem] flex flex-col bg-[#FFD050]
+}
+
+.economy {
+    border: 0.07rem solid #6D6E76;
+
+    @apply h-[16.29rem] w-[21.142rem] p-[2.286rem] flex flex-col
+}
+
+
+.imagediv {
+    @apply h-[3.43rem] w-[3.43rem] bg-[#FBF6EA] flex justify-center items-center mb-[1.143rem]
+}
+
+.squarehead {
+    @apply mb-[0.29rem] font-bold text-[2rem] leading-[2.86rem] text-[#232536]
+}
+
+.squarepara {
+    @apply text-[#6D6E76] leading-[2rem] font-normal text-[1.143rem] w-[16.57rem]
+}

@@ -1,0 +1,46 @@
+.contact {
+    @apply flex justify-center items-center
+}
+
+.contactHead {
+    @apply text-[#232536] font-black leading-[1.43rem] tracking-[0.21rem] text-[1.143rem] mb-[0.86rem]
+}
+
+.contactTop {
+    @apply flex justify-center items-center flex-col mt-[9.143rem] w-[54.86rem]
+}
+
+.convo {
+    @apply font-bold text-[3.43rem] leading-[4.57rem] mb-[1.71rem]
+}
+
+.contactText {
+    @apply w-[54.86rem] text-center text-[1.143rem] leading-[2rem] font-normal text-[#6D6E76] mb-[4.57rem]
+}
+
+.contactAll {
+    @apply w-[54.86rem]
+}
+
+.contactSecond {
+    @apply h-[17.143rem] bg-[#592EA9] w-[54.86rem] mb-[2.29rem] flex flex-row justify-center items-center gap-[3.025rem]
+}
+
+.contactUs {
+    @apply flex flex-col
+}
+
+.working {
+    @apply flex flex-col h-[9.86rem]
+}
+
+.hours {
+    @apply text-[#FFFFFF] opacity-60 text-[1rem] font-normal leading-[1.43rem] mb-[1.143rem]
+}
+
+.contactLine {
+    border: 0.071rem solid #FFFFFF;
+    background: #FFFFFF;
+    opacity: 0.1;
+    @apply w-[21rem]
+}

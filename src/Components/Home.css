@@ -143,11 +143,11 @@
     @apply flex flex-col flex-wrap mt-[7rem]
 }
 
-.mission {
+#mission {
     @apply text-[#232536] font-semibold text-[1.14rem] leading-[1.43rem] tracking-[0.21rem] mb-[1.71rem]
 }
 
-.content {
+#content {
     @apply leading-[2.86rem] text-[2rem] w-[34.4rem] h-[5.71rem] font-bold mb-[1.143rem] text-[#232536]
 }
 

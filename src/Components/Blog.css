@@ -1,0 +1,64 @@
+.blogTop {
+    @apply h-[37.1rem] w-full bg-[#F4F0F8] pl-[5.71rem] pr-[5.71rem] pt-[6.71rem] flex flex-row justify-between mb-[4.57rem]
+}
+
+.blogp {
+    @apply text-[#232536] font-medium text-[1.14rem] leading-[1.42rem] tracking-[0.21rem] mb-[1.42rem]
+}
+
+.blogpairs {
+    @apply text-[#232536] font-bold text-[2.57rem] leading-[3.43rem] w-[45.57rem] h-[6.86rem]
+}
+
+.bloglorem {
+    @apply w-[44.57rem]
+}
+
+.purple {
+    @apply text-[#592EA9]
+}
+
+.jane {
+    @apply text-[1rem] text-[#4c4c4c] leading-[1.43rem] mt-[1.14rem] mb-[1.14rem] font-medium
+}
+
+.bloglorem {
+    @apply text-[1.14rem] font-normal leading-[2rem] text-[#6D6E76]
+}
+
+.blogsecond {
+    @apply pl-[5.71rem] pr-[5.71rem]
+}
+
+.blogall {
+    @apply text-[#232536] font-bold text-[3.43rem] leading-[4.5rem] mb-[2.29rem]
+}
+
+.blogline {
+    border: 1px solid #6D6E76;
+
+    @apply w-[91.57rem] h-[0rem] mb-[5.71rem]
+}
+
+.blogcsection {
+    @apply flex flex-col gap-[4.57rem] mb-[4.57rem]
+}
+
+.blogthird {
+    @apply flex flex-row gap-[1.71rem] justify-center mb-[4.57rem]
+}
+
+.blogf1 {
+    @apply text-[#232536] font-bold text-[2.57rem] leading-[3.43rem]
+}
+
+.blogfourth {
+    @apply pl-[5.71rem] pr-[5.71rem]
+}
+
+/* 16px = 1.143rem */
+/* 28 =2rem */
+/* 32=2.29rem */
+/* 64 =4.57rem */
+/* 36 =2.57rem */
+/* 3.43 =48 */

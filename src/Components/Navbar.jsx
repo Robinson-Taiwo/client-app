@@ -20,7 +20,8 @@ const Navbar = () => {
                     <Link to="/contacts" className='inks'>Contact us</Link>
                 </div>
 
-                <Link to="/suscribe" className='but'>suscribe</Link>
+                {/* <Link to="/suscribe" className='but'>suscribe</Link> */}
+                <a className='but' href="#suscribe">suscribe</a>
 
             </div>
 

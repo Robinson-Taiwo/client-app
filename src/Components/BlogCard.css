@@ -1,0 +1,33 @@
+.blogPics {
+    @apply w-[35rem] h-[22.7rem]
+}
+
+.blogcard {
+    @apply flex flex-row gap-[2.29rem]
+}
+
+.blogContents {
+    @apply flex flex-col
+}
+
+.bCategory {
+    @apply mb-[1.43rem] text-[#592EA9] leading-[1.43rem] text-[1.14rem] font-semibold tracking-[0.21rem]
+}
+
+.blogHeading {
+    width: 47.6rem;
+    height: 6.86rem;
+    @apply font-bold text-[2.57rem] leading-[3.43rem] mb-[1.143rem] text-[#232536]
+}
+
+
+/* 16px = 1.143rem */
+/* 28 =2rem */
+/* 32=2.29rem */
+/* 64 =4.57rem */
+
+.bctext {
+    width: 44.6rem;
+    height: 4rem;
+    @apply text-[#6D6E76] font-normal leading-[2rem] text-[1.14rem]
+}

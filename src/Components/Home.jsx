@@ -14,14 +14,12 @@ import Logo4 from "../assets/Logo4.svg"
 import profilepics from "../assets/profilepics.png"
 import arrow1 from "../assets/Arrow1.svg"
 import arrow2 from "../assets/Arrow2.svg"
-
 import Button from "../assets/Button.svg"
 import feat from "../images/feat.png"
 import together from "../images/together.png"
 import PostData from "./Data/index"
 import ProfileData from "./Data/ProfileData"
 import PostCard from './PostCard'
-// import ProfileData from './Data/ProfileData'
 import ProfileCard from './ProfileCard'
 
 const Home = () => {
@@ -111,9 +109,9 @@ const Home = () => {
             </div>
 
             <div className='thirdbox-2'>
-              <p className="mission">OUR MISSION</p>
+              <p id="mission">OUR MISSION</p>
 
-              <h1 className='content' >Creating valuable content for creatives all around the world</h1>
+              <h1 id='content' >Creating valuable content for creatives all around the world</h1>
 
               <p className="amet">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -128,7 +126,7 @@ const Home = () => {
 
         <section className="fourth">
 
-          <h1 className="choose">Choose A Catagory</h1>
+          <h1 className="choose">Choose A Category</h1>
 
           <div className="square">
             <div className="economy">

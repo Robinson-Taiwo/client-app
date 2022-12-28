@@ -1,0 +1,36 @@
+.policy {
+    @apply flex flex-col
+}
+
+.policyTop {
+    @apply h-[18.29rem] bg-[#F4F0F8] flex justify-center items-center flex-col mb-[9.143rem]
+}
+
+.privacyPolicy {
+    @apply text-[#232536] font-bold text-[3.43rem] leading-[4.57rem] mb-[0.29rem]
+}
+
+.lastUpdated {
+    opacity: 0.6;
+    @apply text-[#232536] font-normal text-[1.143rem] leading-[2rem]
+}
+
+.policySecond {
+    @apply flex flex-col justify-center items-center
+}
+
+.policyTitle {
+    @apply text-[#232536] font-bold text-[3.43rem] leading-[4.57rem] tracking-[-0.143rem] mb-[2.29rem]
+}
+
+.policyText {
+    @apply text-[#4C4C4C] text-[1.143rem] leading-[2rem] font-normal
+}
+
+.policyContainer {
+    @apply w-[52.86rem] mb-[9.143rem]
+}
+
+.policyTitles {
+    @apply text-[#232536] font-bold text-[2.57rem] leading-[4.57rem] tracking-[-0.143rem] mb-[2.29rem] mt-[2.29rem] mb-[1.71rem]
+}
