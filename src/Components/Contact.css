@@ -42,5 +42,42 @@
     border: 0.071rem solid #FFFFFF;
     background: #FFFFFF;
     opacity: 0.1;
-    @apply w-[21rem]
+    @apply w-[21rem] mb-[1.43rem]
+}
+
+.contactDay {
+    @apply font-bold text-[1.43rem] leading-[2.29rem] text-[#ffffff] w-[15.93rem]
+}
+
+.contactTeam {
+    opacity: 0.6;
+    @apply font-normal leading-8 text-[1.143] text-[#FFFFFF]
+}
+
+.contactThird {
+    @apply w-[54.86rem] flex flex-col gap-[1.143rem] mb-[9.143rem]
+}
+
+.contactInput {
+    border: 0.07rem solid rgba(109, 110, 118, 0.5);
+    border-radius: 0.14rem;
+    @apply h-[5.43rem] pl-[1.71rem]
+}
+
+.contactInput::placeholder {
+    @apply text-black
+}
+
+.contactInput1::placeholder {
+    @apply text-black
+}
+
+.contactInput1 {
+    border: 0.07rem solid rgba(109, 110, 118, 0.5);
+    border-radius: 0.14rem;
+    @apply h-[10.3rem] pl-[1.71rem] pt-[0rem] flex items-start mb-[1.143rem]
+}
+
+.contactButton{
+    @apply bg-[#FFD050] flex h-[4.57rem] justify-center items-center text-[#232536] leading-[2.29rem] text-[1.71rem] font-bold 
 }

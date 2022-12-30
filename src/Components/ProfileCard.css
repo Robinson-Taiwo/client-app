@@ -1,20 +1,25 @@
 .imgcard {
-    @apply h-[9.143rem] w-[9.143rem] rounded mb-[1.43rem] 
+    @apply h-[9.143rem] w-[9.143rem] rounded mb-[1.43rem] self-center
 }
 
+/* pl-[6rem] */
 .profileCard {
-    @apply pt-[2.86rem] pl-[6rem] w-[24.14rem] h-[23.14rem] bg-[#F4F4F4] justify-center
+    @apply pt-[2.86rem] w-[24.14rem] h-[23.14rem] bg-[#F4F4F4] justify-center flex flex-col
 }
 
 .name2 {
     /* background-image: url(../images/social-media.png); */
-    @apply text-[#232536] font-bold text-[2rem] leading-[2.86rem]
+    @apply text-[#232536] font-bold text-[2rem] leading-[2.86rem] flex self-center w-fit
 }
 
 .job {
-    @apply text-[1rem] leading-[1.43rem] font-normal mb-[1.43rem]
+    @apply text-[1rem] leading-[1.43rem] font-normal mb-[1.43rem] flex self-center w-fit
 }
 
-.profileCard:hover{
+.profileCard:hover {
     @apply bg-[#FBF6EA]
+}
+
+.alti {
+    @apply self-center flex
 }

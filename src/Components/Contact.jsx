@@ -59,15 +59,26 @@ const Contact = () => {
 
 
               <div className="contactDay">
-              020 7993 2905
+                020 7993 2905
               </div>
 
               <div className="contactTeam">
-              hello@finsweet.com
+                hello@finsweet.com
               </div>
 
             </div>
           </div>
+
+          <section className="contactThird">
+            <input type="text" className="contactInput" placeholder='Full Name' />
+            <input type="email" className="contactInput" placeholder='Your Email' />
+            <input type="text" className="contactInput" placeholder='Query Related' />
+            <input type="text" className="contactInput1" placeholder='Message' />
+
+            <div className="contactButton">
+              Send Message
+            </div>
+          </section>
 
 
         </div>

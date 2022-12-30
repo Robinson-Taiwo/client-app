@@ -21,7 +21,7 @@
 }
 
 .foot3 {
-    @apply mr-[19.1rem] flex
+    @apply  flex
 }
 
 .footinput {

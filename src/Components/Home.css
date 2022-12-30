@@ -14,7 +14,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @apply pt-[9.143rem] pl-[5.79rem] flex flex-col h-[51.429rem] w-full
+    @apply pt-[12.57rem] pl-[5.79rem] flex flex-col h-[68.93rem] w-full
 }
 
 
@@ -29,7 +29,7 @@
 }
 
 .heading {
-    @apply font-bold text-[4rem] text-white leading-[4.71rem] w-[57.4rem] font-sans
+    @apply font-bold text-[4rem] text-white leading-[4.71rem] font-sans
 }
 
 .james {
@@ -48,11 +48,15 @@
     @apply mt-[3.43rem] bg-[#FFD050] h-[4rem] w-[14.6rem] flex items-center justify-center
 }
 
+
+/* gap-[2.29rem] */
 .second {
-    @apply flex flex-row h-[57.43rem] mt-[9.143rem] w-full pr-[5.57rem] pl-[5.714rem] gap-[2.29rem] mb-[9.143rem]
+    @apply flex flex-row h-[57.43rem] mt-[9.143rem] w-full pr-[5.57rem] pl-[5.714rem] mb-[9.143rem] justify-between
 }
 
 .cont {
+    border: 0.071rem solid #6D6E76;
+
     @apply mt-[2.29rem] p-[2.29rem] h-[51.71rem] w-[52.36rem]
 }
 
@@ -61,6 +65,9 @@
     letter-spacing: -0.143rem;
     @apply font-bold leading-[3.43rem] text-[2.57rem]
 }
+
+/* .feature {
+} */
 
 .doe {
 
@@ -103,20 +110,23 @@
     @apply pl-[5.71rem] pr-[5.57rem]
 }
 
+/* w-[75.79rem] */
 .design {
-    @apply w-[75.79rem] h-[1.643rem] flex flex-row justify-end ml-[15.64rem]
+    @apply h-[1.643rem] flex flex-row justify-end ml-[15.64rem]
 }
 
 .design-yellow {
     @apply w-[60.21rem] bg-[#FFD050] h-[1.643rem]
 }
 
+
 .design-purple {
     @apply w-[20.14rem] bg-[#592EA9] h-[1.643rem]
 }
 
+/* w-[91.43rem] */
 .thirdbox {
-    @apply w-[91.43rem] h-[35.71rem] flex flex-row gap-[4.36rem] pl-[5.71rem] bg-[#F4F0F8] pr-[7.71rem]
+    @apply h-[35.71rem] flex flex-row gap-[4.36rem] pl-[5.71rem] bg-[#F4F0F8] pr-[7.71rem] justify-between
 }
 
 .thirdbox-1 {
@@ -164,8 +174,10 @@
     @apply text-[#232536] font-bold text-[2.571rem] leading-[3.43rem] self-center w-[100%] flex justify-center mb-[3.43rem]
 }
 
+
+/* gap-[2.29rem] */
 .square {
-    @apply flex flex-row gap-[2.29rem] mb-[9.143rem]
+    @apply flex flex-row mb-[9.143rem] justify-between
 }
 
 .economy1 {
@@ -200,7 +212,7 @@
 .why {
     left: 41rem;
     margin-top: 8.64rem;
-    @apply h-[41.7rem] w-[50.43rem] bg-[#FFFFFF] absolute pl-[5.714rem] pr-[5.714rem] flex flex-col
+    @apply h-[42.7rem] w-[50.43rem] bg-[#FFFFFF] absolute pl-[5.714rem] pr-[5.714rem] flex flex-col
 }
 
 .we {
@@ -208,7 +220,7 @@
 }
 
 .started {
-    @apply text-[2rem] leading-[4.57rem] font-bold text-[#232536]
+    @apply text-[2rem] leading-[4.57rem] font-bold text-[#232536] max-w-[32rem] tracking-[0.143rem]
 }
 
 .elit {
@@ -219,25 +231,30 @@
     @apply w-[19.2rem] h-[4rem] mt-[3.43rem]
 }
 
+/* w-[67.79rem] */
 .together {
-    @apply w-[67.79rem] h-[50.4rem]
+    @apply h-[50.4rem]
 }
 
+
+/* w-[91.43rem] ml-[36.79rem] */
 .authors {
     color: #232536;
-    @apply text-[2.57rem] leading-[3.43rem] font-bold mb-[3.43rem] w-[91.43rem] ml-[36.79rem]
+    @apply text-[2.57rem] leading-[3.43rem] font-bold mb-[3.43rem] flex justify-center
 }
 
 .sixth {
     @apply flex flex-col pl-[5.71rem] pr-[5.57rem] mb-[7.714rem]
 }
 
+
+/* gap-[2.29rem] */
 .profile {
-    @apply flex flex-row gap-[2.29rem]
+    @apply flex flex-row justify-between
 }
 
 .seventh {
-    @apply pl-[5.71rem] pr-[5.57rem] flex mb-[9.143rem] items-center
+    @apply pl-[5.71rem] pr-[5.57rem] flex mb-[9.143rem] items-center justify-between
 }
 
 .featin {
@@ -269,7 +286,7 @@
 } */
 
 .eight {
-    @apply ml-[5.71rem] mr-[5.57rem] flex flex-row h-[33.14rem] bg-[#FBF6EA] mb-[9.14rem]
+    @apply ml-[5.71rem] mr-[5.57rem] flex flex-row h-[33.14rem] bg-[#FBF6EA] mb-[9.14rem] pl-[8rem] pr-[12.43rem]
 }
 
 .vline {

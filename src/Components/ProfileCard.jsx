@@ -10,9 +10,9 @@ const ProfileCard = ({image, name, job}) => {
         <div className="name2">{name}</div>
         <div className="job">{job}</div>
 
-        <div>
+        <div className='alti' >
 
-            <img src={socialmedia} alt="social-media" />
+            <img src={socialmedia} alt="social-media"  className='alt' />
         </div>
     </div>
   )
