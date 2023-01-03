@@ -10,11 +10,18 @@
 }
 
 .first {
-    background-image: url(../images/image1.png);
+
+    background: radial-gradient(30.56% 76.04% at 72.78% 14.44%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/image1.png)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+
+    /* background-image: url(../images/image1.png); */
+    /* background-color: rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%; */
+    /* background-blend-mode: overlay; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @apply pt-[12.57rem] pl-[5.79rem] flex flex-col h-[68.93rem] w-full
+    @apply pt-[17.56rem] pl-[5.79rem] flex flex-col h-[68.93rem] w-full
 }
 
 

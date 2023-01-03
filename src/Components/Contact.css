@@ -1,5 +1,5 @@
 .contact {
-    @apply flex justify-center items-center
+    @apply flex-col lg:flex justify-center items-center w-screen
 }
 
 .contactHead {
@@ -7,23 +7,23 @@
 }
 
 .contactTop {
-    @apply flex justify-center items-center flex-col mt-[9.143rem] w-[54.86rem]
+    @apply flex justify-center items-center flex-col mt-[9.143rem] lg:w-[50.86rem]
 }
 
 .convo {
-    @apply font-bold text-[3.43rem] leading-[4.57rem] mb-[1.71rem]
+    @apply font-bold lg:text-[3.43rem] leading-[4.57rem] mb-[1.71rem]
 }
 
 .contactText {
-    @apply w-[54.86rem] text-center text-[1.143rem] leading-[2rem] font-normal text-[#6D6E76] mb-[4.57rem]
+    @apply w-[30rem] lg:w-[54.86rem] text-center lg:text-[1.143rem] lg:leading-[2rem] font-normal text-[#6D6E76] mb-[4.57rem] flex-wrap flex-col
 }
 
 .contactAll {
-    @apply w-[54.86rem]
+    @apply lg:w-[54.86rem]
 }
 
 .contactSecond {
-    @apply h-[17.143rem] bg-[#592EA9] w-[54.86rem] mb-[2.29rem] flex flex-row justify-center items-center gap-[3.025rem]
+    @apply lg:h-[17.143rem] bg-[#592EA9] lg:w-[54.86rem] mb-[2.29rem] flex lg:flex-row justify-center items-center gap-[3.025rem] flex-col
 }
 
 .contactUs {
@@ -55,7 +55,7 @@
 }
 
 .contactThird {
-    @apply w-[54.86rem] flex flex-col gap-[1.143rem] mb-[9.143rem]
+    @apply lg:w-[54.86rem] w-[40rem] justify-center flex flex-col gap-[1.143rem] mb-[9.143rem] 
 }
 
 .contactInput {

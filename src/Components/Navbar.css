@@ -1,17 +1,17 @@
 .Navbar{
-    @apply bg-[#232536] w-full h-[5.71rem] flex  justify-between items-center
+    @apply bg-[#232536] lg:w-full h-[5.71rem] lg:w-screen flex  justify-between items-center
 }
 
 .nav{
-    @apply flex mr-[5.71rem]
+    @apply min-w-fit flex mr-[5.71rem] 
 }
 
 .logo{
-    @apply h-[2.03rem] w-[10rem] ml-[5.93rem]
+    @apply h-[2.03rem] w-[10rem] lg:ml-[5.93rem] ml-[1rem]
 }
 
 .links{
-    @apply flex mr-[2.29rem] gap-[1.71rem] ml-[44.4rem] items-center
+    @apply lg:flex lg:mr-[2.29rem] lg:gap-[1.71rem] lg:ml-[44.4rem] lg:items-center hidden
 }
 
 .inks{
