@@ -55,13 +55,13 @@
 }
 
 .contactThird {
-    @apply lg:w-[54.86rem] w-[40rem] justify-center flex flex-col gap-[1.143rem] mb-[9.143rem] 
+    @apply lg:w-[54.86rem] w-[40rem] justify-center flex flex-col gap-[1.143rem] mb-[9.143rem]  
 }
 
 .contactInput {
     border: 0.07rem solid rgba(109, 110, 118, 0.5);
     border-radius: 0.14rem;
-    @apply h-[5.43rem] pl-[1.71rem]
+    @apply h-[5.43rem] pl-[1.71rem] flex 
 }
 
 .contactInput::placeholder {

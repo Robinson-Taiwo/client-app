@@ -1,5 +1,5 @@
 .footer {
-    @apply h-[40rem] bg-[#232536] pl-[5.71rem] pr-[5.71rem] pt-[4.21rem] pb-[4rem]
+    @apply lg:h-[40rem] bg-[#232536] lg:pl-[5.71rem] lg:pr-[5.71rem] pt-[4.21rem] pb-[4rem] flex-col flex pl-[1.5rem] pr-[1.5rem]
 }
 
 .footlinks {
@@ -13,7 +13,7 @@
 .foot2 {
     /* background: #FFFFFF;
     opacity: 0.05; */
-    @apply h-[18.29rem] bg-[#36384b] pl-[4.57rem] pr-[4.57rem] pt-[5.71rem] flex flex-row justify-between
+    @apply lg:h-[18.29rem]  bg-[#36384b] pl-[4.57rem] pr-[4.57rem] pt-[5.71rem] flex lg:flex-row justify-between flex-col h-[20rem]
 }
 
 .subs {
@@ -21,13 +21,13 @@
 }
 
 .foot3 {
-    @apply  flex
+    @apply  flex mt-[2rem]
 }
 
 .footinput {
     background-color: transparent;
     border: 0.071rem solid #c4c4c4;
-    @apply w-[23.1rem] h-[4rem] pl-[1.78rem] pt-4
+    @apply w-[23.1rem] lg:h-[4rem] pl-[1.78rem] pt-4  
 }
 
 .utt {
@@ -35,7 +35,7 @@
 }
 
 .bottom {
-    @apply flex justify-between
+    @apply flex lg:justify-between gap-[7rem] 
 }
 
 .address {
@@ -44,5 +44,5 @@
 }
 
 .media {
-    @apply mt-[4.29rem]
+    @apply mt-[4.29rem]  
 }

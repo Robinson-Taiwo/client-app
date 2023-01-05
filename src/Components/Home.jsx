@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Home.css"
 import PageLayout from './PageLayout'
 import read from "../assets/Read.svg"
@@ -21,8 +21,19 @@ import PostData from "./Data/index"
 import ProfileData from "./Data/ProfileData"
 import PostCard from './PostCard'
 import ProfileCard from './ProfileCard'
+// import axios from 'axios'
 
 const Home = () => {
+
+
+  // useEffect(() => {
+  //   axios
+  //     .get("https://www.googleapis.com/blogger/v3/blogs/2399953/posts?key=AIzaSyCFsnNY8pe5FOWQtMakzuiYFW98hhJG-ec")
+  //     .then(response => console.log(response))
+  // }
+
+  // )
+
 
   return (
     <PageLayout>
